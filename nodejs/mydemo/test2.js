@@ -7,7 +7,7 @@ fs.readFile('input.txt', function (err,data) {
     console.log(data.toString());
 });
 var i = 0;
-while (i++ < 20)
+while (i++ < 30)
 {
     setTimeout(function(){
         console.log('progress execute completed');
